@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72562695-ff7b-4de3-8e50-ea09a5358c37" name="Changes" comment="Metodos necesarios para acceder a la cuenta..." />
+    <list default="true" id="72562695-ff7b-4de3-8e50-ea09a5358c37" name="Changes" comment="Metodos necesarios para acceder a la cuenta...">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -43,7 +49,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Sascc/OneDrive/Desktop/QA/BugBank_Grupo_6&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for main.TestClass.test_setting_credentials">
+  <component name="RunManager" selected="Python tests.Python tests for main.TestClass.test_signup_account">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="BugBank_Grupo_6" />
       <option name="ENV_FILES" value="" />
@@ -113,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for main.TestClass.test_setting_credentials" />
         <item itemvalue="Python tests.Python tests for main.TestClass.test_signup_account" />
+        <item itemvalue="Python tests.Python tests for main.TestClass.test_setting_credentials" />
         <item itemvalue="Python tests.Python tests for main.test_setting_credentials" />
       </list>
     </recent_temporary>
@@ -167,7 +173,31 @@
       <option name="project" value="LOCAL" />
       <updated>1725733596875</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Metodos necesarios para acceder a la cuenta...">
+      <option name="closed" value="true" />
+      <created>1725733701844</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725733701844</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Metodos necesarios para acceder a la cuenta...">
+      <option name="closed" value="true" />
+      <created>1725733959934</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725733959934</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Metodos necesarios para acceder a la cuenta...">
+      <option name="closed" value="true" />
+      <created>1725734337483</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725734337483</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

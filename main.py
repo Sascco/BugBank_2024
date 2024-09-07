@@ -9,7 +9,6 @@ from time import sleep
 # Start
 class TestClass:
     def setUp(self):
-        #chrome_driver_path = r"C:\Users\Sascc\OneDrive\Desktop\chromedriver-win64\chromedriver.exe"
         chrome_driver_path = r"C:\Users\Sascc\OneDrive\Desktop\chromedriver-win64\chromedriver.exe"
         service = Service(executable_path=chrome_driver_path)
         self.driver = webdriver.Chrome(service=service)
@@ -26,7 +25,7 @@ class TestClass:
         sleep(3)
     def test_signup_account(self):
         self.driver.get(data.bugBank_url)
-        signup_account = BugbankPage (self.driver)
+        signup_account = BugbankPage ()
         signup_account.click_sign_up_button(self.driver)
         signup_account.set_email(self.driver)
         signup_account.set_customers_name(self.driver)
