@@ -30,7 +30,7 @@ Documentación: https://docs.google.com/spreadsheets/d/15zxI2Il4YhJfbdf9e8pos4FR
 
 - [Apidoc] - https://restful-booker.herokuapp.com/apidoc/index.html
 - [Postman] - https://learning.postman.com/docs/introduction/overview/
-
+- [Jira]: Seguimiento de errores
 
 
 ## Tecnologías y herramientas utilizadas 
@@ -62,7 +62,27 @@ Las pruebas se desarrollaron en el siguiente archivo, el cual contiene los links
 
 https://docs.google.com/spreadsheets/d/15zxI2Il4YhJfbdf9e8pos4FR9_6j362L/edit?usp=sharing&ouid=117701476691019254617&rtpof=true&sd=true 
 
-POM
+## Proyectos Fake Api :
+El presente proyecto contiene un conjunto de pruebas funcionales realizadas sobre la API Fake API e-commerce, una API que se puede utilizar con cualquier tipo de proyecto que necesite productos, usuarios, categorías, autenticación y usuarios en formato JSON. Puedes utilizar esta API para crear prototipos de comercio electrónico y aprender a conectarse a una API con las mejores prácticas. Dentro de las pruebas se incluyeron las funcionalidades más relevantes para el registro del usuario, de productos y de la creacion de nuevas categorias, usando de diferentes endpoints que permitian la creación de las pruebas necesarias.
+
+## Documentación utilizada :
+[Apidoc] - https://restful-booker.herokuapp.com/apidoc/index.html
+[Web] - https://learning.postman.com/docs/introduction/overview/
+
+## Tecnologías y herramientas utilizadas
+Postman: Pruebas y documentación de API's
+Apidoc: Documentación
+Jira: Seguimiento de errores
+
+Pruebas realizadas
+Endpoints probados
+[POST] https://api.escuelajs.co/api/v1/users/ (crear usuario)
+[POST] https://api.escuelajs.co/api/v1/users/is-available (validar correo electronico)
+[POST] https://api.escuelajs.co/api/v1/products/ (crear un producto)
+[POST] https://api.escuelajs.co/api/v1/categories/ (crear una categoria)
+[GET] https://api.escuelajs.co/api/v1/categories/1/products (Obtenga todos los productos por categoría)
+
+## POM
 El Modelo de Objetos de Página (POM, por sus siglas en inglés) es un patrón de diseño utilizado en pruebas automatizadas de interfaces de usuario (UI). Este patrón ayuda a crear una estructura más mantenible y legible al separar la lógica de la UI del código de las pruebas.
 
 ## Descripción del Modelo de Objetos de Página (POM)
