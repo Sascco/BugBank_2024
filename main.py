@@ -1,16 +1,19 @@
-# This is a sample Python script.
-
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+import data
+import locators
+from bug_bank import BugbankPage
+from selenium import webdriver
+from time import sleep
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+class TestUrbanRoutes:
+    driver = None
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    @classmethod
+    def setup_class(cls):
+        # no lo modifiques, ya que necesitamos un registro adicional habilitado para recuperar el código de confirmación del teléfono
+        from selenium.webdriver import DesiredCapabilities
+        capabilities = DesiredCapabilities.CHROME
+        capabilities["goog:loggingPrefs"] = {'performance': 'ALL'}
+        cls.driver = webdriver.Chrome()  # desired_capabilities = capabilities
+        cls.driver.get(data.URBAN_ROUTES_URL)
+        cls.driver.implicitly_wait(10)
