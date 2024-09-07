@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72562695-ff7b-4de3-8e50-ea09a5358c37" name="Changes" comment="Metodos necesarios para acceder a la cuenta...">
-      <change beforePath="$PROJECT_DIR$/bug_bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/bug_bank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="72562695-ff7b-4de3-8e50-ea09a5358c37" name="Changes" comment="Metodos necesarios para acceder a la cuenta..." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725707818183</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Metodos necesarios para acceder a la cuenta...">
+      <option name="closed" value="true" />
+      <created>1725733596875</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725733596875</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
