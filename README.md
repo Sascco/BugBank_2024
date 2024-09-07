@@ -1,42 +1,71 @@
-BugBank_2024
-¡Hola! 👋Somo el equipo 6 del Hackaton 🌻: Nosotros: Marisol, Alain, Claudia, Sergio y Karina.
 
-🙂 Proyectos : Fake API → https://fakeapi.platzi.com/ Bugbank → bugbank-ui Restful Booker → restful-booker Documentación: https://docs.google.com/spreadsheets/d/15zxI2Il4YhJfbdf9e8pos4FR9_6j362L/edit?usp=sharing&ouid=117701476691019254617&rtpof=true&sd=true
+# BugBank_2024
 
-API testing: Restful-booker
-Descripción
-El presente proyecto contiene un conjunto de pruebas funcionales realizadas sobre la API de Booker, una API para gestionar reservas. Dentro de las pruebas se incluyeron las funcionalidades más relevantes para el usuario final mediante el uso de diferentes endpoints que permitian la creación de nuevas reservas, actualización de reservas existentes y eliminación de reservas. Al igual se verificó que se cumplan los parámetros de seguridad tomando en cuenta las autorizaciones necesarias para las funcionalidades correspondientes.
+¡Hola! 👋Somo el equipo 6 del Hackaton
+🌻: Nosotros:
+Marisol, Alain, Claudia, Sergio y Karina.
 
-Documentación utilizada
-[Apidoc] - https://restful-booker.herokuapp.com/apidoc/index.html
-[Postman] - https://learning.postman.com/docs/introduction/overview/
-Tecnologías y herramientas utilizadas
+🙂 Proyectos :
+Fake API → https://fakeapi.platzi.com/
+Bugbank → bugbank-ui
+Restful Booker → restful-booker
+Documentación: https://docs.google.com/spreadsheets/d/15zxI2Il4YhJfbdf9e8pos4FR9_6j362L/edit?usp=sharing&ouid=117701476691019254617&rtpof=true&sd=true
+
+# API testing: Restful-booker
+
+
+## Descripción
+
+
+
+
+> El presente proyecto contiene un conjunto de pruebas funcionales realizadas sobre la API de Booker, una API para gestionar reservas. Dentro de las pruebas se incluyeron las funcionalidades más relevantes para el usuario final mediante el uso de diferentes endpoints que permitian la creación de nuevas reservas, actualización de reservas existentes y eliminación de reservas. Al igual se verificó que se cumplan los parámetros de seguridad tomando en cuenta las autorizaciones necesarias para las funcionalidades correspondientes.
+
+
+
+
+
+## Documentación utilizada
+
+
+- [Apidoc] - https://restful-booker.herokuapp.com/apidoc/index.html
+- [Postman] - https://learning.postman.com/docs/introduction/overview/
+
+
+
+## Tecnologías y herramientas utilizadas 
+
 El proyecto hizo uso de las siguientes herramienta para desarrollar, verificar y gestionar incidencias.
 
-                         Tecnologías y herramientas
-Postman: Pruebas y documentación de API's
-Apidoc: Documentación
-Jira: Gestor de incidencias
-Pruebas realizadas
-Endpoints probados
+                             Tecnologías y herramientas 
+    Postman: Pruebas y documentación de API's
+    Apidoc: Documentación 
+    Jira: Gestor de incidencias
+    
 
-[POST] https://restful-booker.herokuapp.com/booking (Crear una reserva)
-[GET] https://restful-booker.herokuapp.com/booking/:id (Obtener una reserva)
-[PUT] https://restful-booker.herokuapp.com/booking/:id (Modificar una reserva)
-[DELETE] https://restful-booker.herokuapp.com/booking/1 (Eliminar una reserva)
-Tipos de pruebas
 
-Pruebas funcionales: validación de las respuestas y lógica de los endpoints
+## Pruebas realizadas
+    
+- Endpoints probados
+  - [POST] https://restful-booker.herokuapp.com/booking (Crear una reserva)
+  - [GET] https://restful-booker.herokuapp.com/booking/:id (Obtener una reserva)
+  - [PUT] https://restful-booker.herokuapp.com/booking/:id (Modificar una reserva)
+  - [DELETE] https://restful-booker.herokuapp.com/booking/1 (Eliminar una reserva)
 
-Resultados de las pruebas
+- Tipos de pruebas
+  - Pruebas funcionales: validación de las respuestas y lógica de los endpoints
+
+ 
+## Resultados de las pruebas 
+
 Las pruebas se desarrollaron en el siguiente archivo, el cual contiene los links correspondientes hacia el gestor de incidencias donde se desarrollaron los informes de errores.
 
-https://docs.google.com/spreadsheets/d/15zxI2Il4YhJfbdf9e8pos4FR9_6j362L/edit?usp=sharing&ouid=117701476691019254617&rtpof=true&sd=true
+https://docs.google.com/spreadsheets/d/15zxI2Il4YhJfbdf9e8pos4FR9_6j362L/edit?usp=sharing&ouid=117701476691019254617&rtpof=true&sd=true 
 
 POM
 El Modelo de Objetos de Página (POM, por sus siglas en inglés) es un patrón de diseño utilizado en pruebas automatizadas de interfaces de usuario (UI). Este patrón ayuda a crear una estructura más mantenible y legible al separar la lógica de la UI del código de las pruebas.
 
-Descripción del Modelo de Objetos de Página (POM)
+## Descripción del Modelo de Objetos de Página (POM)
 
 Separación de Concerns:
 Página de Objetos: Cada página de la aplicación se modela como una clase independiente. Esta clase contiene todos los elementos de la página y las acciones que se pueden realizar en ellos. Clases de Prueba: Las pruebas se centran en la lógica de verificación y utilizan las clases de página para interactuar con la UI. 2. Mejora de la Mantenibilidad:
@@ -134,10 +163,13 @@ Una vez tengas instalado Python, Pytest y Pycharm, vas a poder editar el codigo 
 En el archivo UrbanRoutesPage.py vas a encontrar los metodos, que utilizan los localizadores que se encuentran en el archivo Locators.py. Las pruebas están en la clase TestUrbanRoutes en el archivo Main.py.
 
 
-Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-License
-MIT
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
