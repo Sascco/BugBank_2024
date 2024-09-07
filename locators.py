@@ -5,7 +5,7 @@ class locators_list:
 # Landing Page
   client_email_input_box = (By.XPATH, '//*[@id="__next"]/div/div[2]/div/div[1]/form/div[1]/input')
   client_password_input_box = (By.XPATH, '//*[@id="__next"]/div/div[2]/div/div[1]/form/div[2]/div/input')
-  login_button = (By.CLASS_NAME, 'login__buttons')
+  login_button = (By.XPATH, '//*[@id="__next"]/div/div[2]/div/div[1]/form/div[3]/button[1]')
   register_button = (By. XPATH, '//*[@id="__next"]/div/div[2]/div/div[1]/form/div[3]/button[2]')
   transfer_button = (By.ID, 'btn-TRANSFERÊNCIA')
   balance_button = (By.ID, 'btn-EXTRATO')
