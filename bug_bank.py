@@ -1,10 +1,9 @@
 import data
 import locators
-from locators import locators
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-class BugbankPage:
+class BugBankPage:
 
     def __init__(self, driver):
         self.driver = driver
@@ -34,4 +33,9 @@ class BugbankPage:
 
 #Landing Page
 
-    def
+    def email_input(self, customers_email):
+        self.driver.find_element(*locators.client_email_input_box).send_keys(data.client_email)
+
+    def pass_input(self, customers):
+        self.driver.find_element(*locators.client_password_input_box).send_keys(data.client_password)
+
