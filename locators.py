@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-class locators:
+class locators_list:
 
 # Landing Page
   client_email_input_box = (By.XPATH, '//*[@id="__next"]/div/div[2]/div/div[1]/form/div[1]/input')
@@ -24,3 +24,5 @@ class locators:
   go_back_button = (By. ID, 'btnBack')
 # Balance Page
   go_back_button_balance_page = (By.ID, 'btnBack')
+
+
