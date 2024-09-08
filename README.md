@@ -20,7 +20,7 @@
   - Postman: Pruebas y documentación de API's
   - Apidoc: Documentación 
   - Jira: Seguimiento de errores
-  - 
+     
 ## Pruebas realizadas
     
 - Endpoints probados
